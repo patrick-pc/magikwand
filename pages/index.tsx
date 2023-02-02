@@ -22,7 +22,7 @@ export default function Home() {
             </div>
             <br />
             <div></div>
-            <p>A keyboard shortcut that will 20x your writing and reading.</p>
+            <p>a keyboard shortcut that will 20x your writing and reading</p>
             <br />
             <p>int +99</p>
             <p>agi +99</p>
@@ -41,12 +41,24 @@ export default function Home() {
               macOS
             </a>
           </p> */}
+            <br />
             <p>
-              interested in using it? dm{' '}
+              buy now (you get more credits):{' '}
+              <a
+                className="text-indigo-500"
+                href="https://1394609787818.gumroad.com/l/magikwand"
+                target="_blank"
+              >
+                gumroad link
+              </a>
+            </p>
+            <p>note: this is a presale and i will email you once it's ready</p>
+            {/* <p>
+              built by:{' '}
               <a className="text-indigo-500" href="https://twitter.com/_patrickpc" target="_blank">
                 @_patrickpc
               </a>
-            </p>
+            </p> */}
           </div>
 
           <video className="w-full max-w-3xl rounded-xl" autoPlay loop muted>
