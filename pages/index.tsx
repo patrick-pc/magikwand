@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/logo@2x.png" />
       </Head>
 
-      <main className="mt-16 flex h-screen w-full flex-col items-center justify-center px-6 lg:mt-0">
+      <main className="my-16 flex h-screen w-full flex-col items-center justify-center px-6 lg:mt-0">
         <div className="flex flex-col gap-8 lg:flex-row">
           <div className="flex max-w-4xl flex-col rounded-xl border p-6">
             <div className="flex items-center gap-2">
