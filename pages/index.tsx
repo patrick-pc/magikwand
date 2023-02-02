@@ -36,7 +36,7 @@ export default function Home() {
           <p>class: one handed</p>
           <p>
             download:{' '}
-            <a className="text-indigo-500" href="/magikwand.dmg" download>
+            <a className="text-indigo-500" href="/magikwand.zip" download>
               macOS
             </a>
           </p>
