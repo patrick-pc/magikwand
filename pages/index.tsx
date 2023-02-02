@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/logo@2x.png" />
       </Head>
 
-      <main className="flex h-screen w-full flex-col items-center justify-center">
+      <main className="flex h-screen w-full flex-col items-center justify-center px-6">
         <div className="flex max-w-4xl flex-col rounded-xl border p-6">
           <div className="flex items-center gap-2">
             <img className="h-8" src="/logo-black.png" />
@@ -32,16 +32,16 @@ export default function Home() {
           <p>decrease brain cell consumption by 50%</p>
           <br />
           <p>type: tool</p>
-          <p>applicable jobs: every job</p>
           <p>class: one handed</p>
-          <p>
+          <p>applicable jobs: every job</p>
+          {/* <p>
             download:{' '}
             <a className="text-indigo-500" href="/magikwand.dmg" download>
               macOS
             </a>
-          </p>
+          </p> */}
           <p>
-            built by:{' '}
+            interested in using it? dm{' '}
             <a className="text-indigo-500" href="https://twitter.com/_patrickpc" target="_blank">
               @_patrickpc
             </a>
