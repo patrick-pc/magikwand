@@ -61,9 +61,11 @@ export default function Home() {
             </p> */}
           </div>
 
-          <video className="w-full max-w-3xl rounded-xl" autoPlay loop muted>
-            <source src="demo.mp4" type="video/mp4" />
-          </video>
+          <div>
+            <video className="w-full max-w-3xl rounded-xl" autoPlay loop muted>
+              <source src="demo.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
       </main>
     </>
