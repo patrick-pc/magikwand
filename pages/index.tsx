@@ -52,7 +52,7 @@ export default function Home() {
                 gumroad link
               </a>
             </p>
-            <p>note: this is a presale and i will email you once it's ready</p>
+            <p>note: this is a presale and i will email you once i launch it</p>
             {/* <p>
               built by:{' '}
               <a className="text-indigo-500" href="https://twitter.com/_patrickpc" target="_blank">
