@@ -14,38 +14,44 @@ export default function Home() {
       </Head>
 
       <main className="flex h-screen w-full flex-col items-center justify-center px-6">
-        <div className="flex max-w-4xl flex-col rounded-xl border p-6">
-          <div className="flex items-center gap-2">
-            <img className="h-8" src="/logo-black.png" />
-            <h1 className="text-lg font-medium">magikwand</h1>
-          </div>
-          <br />
-          <div></div>
-          <p>A keyboard shortcut that will 20x your writing and reading.</p>
-          <br />
-          <p>int +99</p>
-          <p>agi +99</p>
-          <p>dex +99</p>
-          <br />
-          <p>increase productivity by 50%</p>
-          <p>reduce writing/reading time by 50%</p>
-          <p>decrease brain cell consumption by 50%</p>
-          <br />
-          <p>type: tool</p>
-          <p>class: one handed</p>
-          <p>applicable jobs: every job</p>
-          {/* <p>
+        <div className="flex flex-col gap-8 lg:flex-row">
+          <div className="flex max-w-4xl flex-col rounded-xl border p-6">
+            <div className="flex items-center gap-2">
+              <img className="h-8" src="/logo-black.png" />
+              <h1 className="text-lg font-medium">magikwand</h1>
+            </div>
+            <br />
+            <div></div>
+            <p>A keyboard shortcut that will 20x your writing and reading.</p>
+            <br />
+            <p>int +99</p>
+            <p>agi +99</p>
+            <p>dex +99</p>
+            <br />
+            <p>increase productivity by 50%</p>
+            <p>reduce writing/reading time by 50%</p>
+            <p>decrease brain cell consumption by 50%</p>
+            <br />
+            <p>type: tool</p>
+            <p>class: one handed</p>
+            <p>applicable jobs: every job</p>
+            {/* <p>
             download:{' '}
             <a className="text-indigo-500" href="/magikwand.dmg" download>
               macOS
             </a>
           </p> */}
-          <p>
-            interested in using it? dm{' '}
-            <a className="text-indigo-500" href="https://twitter.com/_patrickpc" target="_blank">
-              @_patrickpc
-            </a>
-          </p>
+            <p>
+              interested in using it? dm{' '}
+              <a className="text-indigo-500" href="https://twitter.com/_patrickpc" target="_blank">
+                @_patrickpc
+              </a>
+            </p>
+          </div>
+
+          <video className="w-full max-w-3xl rounded-xl" autoPlay loop muted>
+            <source src="demo.mp4" type="video/mp4" />
+          </video>
         </div>
       </main>
     </>
