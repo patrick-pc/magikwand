@@ -32,7 +32,7 @@ export default function Home() {
             <p>reduce writing/reading time by 50%</p>
             <p>decrease brain cell consumption by 50%</p>
             <br />
-            <p>type: tool</p>
+            <p>hotkey: cmd+c+e</p>
             <p>class: one handed</p>
             <p>applicable jobs: every job</p>
             {/* <p>
